@@ -1,0 +1,21 @@
+{
+  "name": "nodemongo",
+  "version": "1.0.0",
+  "description": "this my first web-site on nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "danzo0l",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^6.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
